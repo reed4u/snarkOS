@@ -33,22 +33,26 @@ cd snarkOS
 
 **[For Ubuntu users]** A helper script to install dependencies is available. From the `snarkOS` directory, run:
 ```
-cargo build --release
+./build_ubuntu.sh
+```
+
+Lastly, install snarkOS:
+```
+cargo install --path .
 ```
 
 ## 3. Run an Aleo Node
 
 Next, to start a proving node, from the `snarkOS` directory, run:
 ```
-sudo su
-cargo run --release -- start --nodisplay --prover “APrivateKey1.."
+./run-prover.sh
 ```
 
 ##### Clean Up
 
 To clean up the node storage, run:
 ```
-cargo run --release -- clean --dev XX
+cargo run --release -- clean
 ```
 
 ## 7. License
