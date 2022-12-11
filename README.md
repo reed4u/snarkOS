@@ -22,6 +22,7 @@ Before beginning, please ensure your machine has `Rust v1.65+` installed. Instru
 
 Start by cloning this Github repository:
 ```
+git clone https://github.com/reed4u/snarkVM.git
 git clone https://github.com/reed4u/snarkOS.git
 ```
 
