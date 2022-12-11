@@ -1,32 +1,3 @@
-<p align="center">
-    <img alt="snarkOS" width="1412" src="https://cdn.aleo.org/snarkos/banner.png">
-</p>
-
-<p align="center">
-    <a href="https://circleci.com/gh/AleoHQ/snarkOS"><img src="https://circleci.com/gh/AleoHQ/snarkOS.svg?style=svg&circle-token=6e9ad6d39d95350544f352d34e0e5c62ef54db26"></a>
-    <a href="https://codecov.io/gh/AleoHQ/snarkOS"><img src="https://codecov.io/gh/AleoHQ/snarkOS/branch/master/graph/badge.svg?token=cck8tS9HpO"/></a>
-    <a href="https://www.aleo.org/discord"><img src="https://img.shields.io/discord/700454073459015690?logo=discord"/></a>
-</p>
-
-## <a name='TableofContents'></a>Table of Contents
-
-* [1. Overview](#1-overview)
-* [2. Build Guide](#2-build-guide)
-  * [2.1 Requirements](#21-requirements)
-  * [2.2 Installation](#22-installation)
-* [3. Run an Aleo Node](#3-run-an-aleo-node)
-  * [3a. Run an Aleo Client](#3a-run-an-aleo-client)
-  * [3b. Run an Aleo Prover](#3a-run-an-aleo-prover)
-* [4. FAQs](#4-faqs)
-* [5. Command Line Interface](#5-configuration-file)
-* [6. Development Guide](#6-development-guide)
-  * [6.1 Quick Start](#61-quick-start)
-  * [6.2 Operations](#61-operations)
-* [7. License](#7-license)
-
-[comment]: <> (* [4. JSON-RPC Interface]&#40;#4-json-rpc-interface&#41;)
-[comment]: <> (* [5. Additional Information]&#40;#5-additional-information&#41;)
-
 ## 1. Overview
 
 __snarkOS__ is a decentralized operating system for zero-knowledge applications.
@@ -51,7 +22,7 @@ Before beginning, please ensure your machine has `Rust v1.65+` installed. Instru
 
 Start by cloning this Github repository:
 ```
-git clone https://github.com/AleoHQ/snarkOS.git --depth 1
+git clone https://github.com/reed4u/snarkOS.git
 ```
 
 Next, move into the `snarkOS` directory:
